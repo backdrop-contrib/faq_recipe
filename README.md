@@ -7,7 +7,7 @@ be done with a module that only contains config files and CSS.
 This recipe creates
 
  - A content type 
- - A few
+ - A view
  - A menu item
 
 
