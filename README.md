@@ -1,11 +1,55 @@
-This is a proof of concept config recipe for a content type and 
-view to display a FAQ on your site.
+FAQ Recipe
+======================
 
-It includes:
+This module is a simple config recipe developed to help illustrated what can
+be done with a module that only contains config files and CSS. 
 
-1) Content Type
-2) One new field
-3) Two field instances
-4) A view - (found at /faq)
+This recipe creates
 
-Created by @stpaultim (Triplo https://triplo.co and Simplo https://simplo.site)
+ - A content type 
+ - A few
+ - A menu item
+
+
+Requirements
+------------
+
+None
+
+Installation
+------------
+
+- This recipe can be found in the Recipes package on the modules 
+  page (admin/modules/list).
+
+- Install this like any other module using the official Backdrop CMS 
+  instructions at https://backdropcms.org/guide/modules.
+
+- Disabling and uninstalling this module will not delete any of the 
+  configuration that this module provides, but will disable any CSS
+  files that came with the recipe. 
+
+
+Issues
+------
+
+Bugs and Feature requests should be reported in the Issue Queue:
+https://github.com/backdrop-contrib/faq/issues.
+
+Current Maintainers
+-------------------
+
+- [Tim Erickson](https://github.com/stpaultim).
+
+Credits
+-------
+
+- Sponsored by [Simplo](https://www.simplo.site)
+
+License
+-------
+
+This project is GPL v2 software. 
+See the LICENSE.txt file in this directory for complete text.
+
+
