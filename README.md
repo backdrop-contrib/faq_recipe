@@ -6,15 +6,23 @@ be done with a module that only contains config files and CSS.
 
 This recipe creates
 
- - A content type 
- - A view
- - A menu item
+ - A FAQ content type
+ - A view using Bootstrap Accordion module to display FAQs. 
+   Bootstrap Accordion module must be enabled and configured to 
+   "Include Bootstrap CSS & JS when used by Views"
+ - A menu item in main menu
+
+ While some users may be happy with the configuration of this FAQ feature 
+ exactly as defined in the recipe. We expect that most users will use 
+ this recipe as a starting point and customize it to meet their unique needs. 
 
 
 Requirements
 ------------
 
-None
+This recipes is currently configured to use the Bootstrap Accordion module 
+to display the FAQ. You will need to enable and configure the Bootstrap 
+Accordion module. 
 
 Installation
 ------------
@@ -35,6 +43,14 @@ Issues
 
 Bugs and Feature requests should be reported in the Issue Queue:
 https://github.com/backdrop-contrib/faq/issues.
+
+Feedback
+--------
+
+We are experimenting with config recipes and welcome your feedback. Please,
+let us know how this config recipe worked for you and how you think we 
+could improve it for other users in the future. 
+https://github.com/backdrop-contrib/faq/issues/1
 
 Current Maintainers
 -------------------
