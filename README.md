@@ -20,9 +20,11 @@ This recipe creates
 Requirements
 ------------
 
+Requires [BackdropCMS 1.20](https://github.com/backdrop/backdrop/releases/tag/1.20.0) or greater.
+
 This recipes is currently configured to use the Bootstrap Accordion module 
 to display the FAQ. You will need to enable and configure the Bootstrap 
-Accordion module. 
+Accordion module to benefit from that formatting. 
 
 Installation
 ------------
