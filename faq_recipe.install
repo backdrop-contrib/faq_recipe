@@ -99,6 +99,8 @@
     // Save submit and save the node.
     $node = node_submit($node);
     node_save($node);
+
+    config_set('views_bootstrap.settings', 'include_bootstrap_assets', '1');
   }
 
 
