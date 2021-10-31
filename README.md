@@ -40,7 +40,14 @@ Installation
 
 - Disabling and uninstalling this module will not delete any of the 
   configuration that this module provides, but will disable any CSS
-  files that came with the recipe. 
+  files that came with the recipe.
+
+Uninstall or Upgrate Options
+----------------------------
+
+It is not currently possible to uninstall or upgrade this recipe.
+If you no longer wish to keep this functionality, you will need 
+to remove the items added by the recipe manually.
 
 
 Issues
