@@ -1,11 +1,9 @@
 <?php
-
   function faq_recipe_install() {
-
     // Make a faq node.
     $node = new Node();
 
-    // Use the node type you need here, in this case 'post'.
+    // Use the node type you need here, in this case 'faq'.
     $node->type = 'faq';
     $node->title = 'How does this recipe work?';
     node_object_prepare($node);
@@ -29,7 +27,7 @@
     // Make a faq node.
     $node = new Node();
 
-    // Use the node type you need here, in this case 'post'.
+    // Use the node type you need here, in this case 'faq'.
     $node->type = 'faq';
     $node->title = 'How do I delete this recipe from my site?';
     node_object_prepare($node);
@@ -57,7 +55,7 @@
     // Make a faq node.
     $node = new Node();
 
-    // Use the node type you need here, in this case 'post'.
+    // Use the node type you need here, in this case 'faq'.
     $node->type = 'faq';
     $node->title = "How do I get the accordion effect on my FAQ page?";
     node_object_prepare($node);
@@ -81,7 +79,7 @@
     // Make a faq node.
     $node = new Node();
 
-    // Use the node type you need here, in this case 'post'.
+    // Use the node type you need here, in this case 'faq'.
     $node->type = 'faq';
     $node->title = 'How do I download more Backdrop recipes?';
     node_object_prepare($node);
