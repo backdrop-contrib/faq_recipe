@@ -4,6 +4,8 @@ FAQ Recipe
 This module is a simple config recipe developed to help illustrated what can
 be done with a module that only contains config files and CSS. 
 
+We have also added an install file to add some sample content. 
+
 This recipe creates
 
  - A FAQ content type
@@ -11,6 +13,7 @@ This recipe creates
    Bootstrap Accordion module must be enabled and configured to 
    "Include Bootstrap CSS & JS when used by Views"
  - A menu item in main menu
+ - Four FAQ items (nodes).
 
  While some users may be happy with the configuration of this FAQ feature 
  exactly as defined in the recipe. We expect that most users will use 
